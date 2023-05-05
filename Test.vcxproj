@@ -146,8 +146,17 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="abstract_factory.h" />
+    <ClInclude Include="builder.h" />
+    <ClInclude Include="decorate.h" />
+    <ClInclude Include="facade.h" />
+    <ClInclude Include="factory_method.h" />
+    <ClInclude Include="observer.h" />
+    <ClInclude Include="prototype.h" />
+    <ClInclude Include="proxy.h" />
     <ClInclude Include="SimpleFactory.h" />
     <ClInclude Include="strategy.h" />
+    <ClInclude Include="template_method.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

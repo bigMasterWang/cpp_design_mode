@@ -26,5 +26,32 @@
     <ClInclude Include="SimpleFactory.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="decorate.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="factory_method.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="prototype.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="template_method.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="facade.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="builder.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_factory.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
