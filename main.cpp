@@ -10,6 +10,16 @@
 #include "builder.h"
 #include "observer.h"
 #include "abstract_factory.h"
+#include "state.h"
+#include "adapter.h"
+#include "memento.h"
+#include "composite.h"
+#include "Singleton.h"
+#include "bridge.h"
+#include "command.h"
+#include "chain_of_responsibility.h"
+#include "mediator.h"
+#include "visitor.h"
 using namespace std;
 
 
@@ -23,7 +33,17 @@ int main() {
     //facade_run();
     //build_run();
     //observer_run();
-    AbstracyFactory::abstract_factory_run();
+    //AbstracyFactory::abstract_factory_run();
+    //state_run();
+    //ADAPTER::adapter_run();
+    //memo_run();
+    //composite_run();
+    //singleton_run();
+    //BRIDGE::bridge_run();
+    //command_run();
+    //chain_of_reposibility_run();
+    //mediator_run();
+    VISITOR::visitor_run();
 }
 /*
 四种原则

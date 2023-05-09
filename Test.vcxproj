@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -144,19 +144,32 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mediator.cpp" />
+    <ClCompile Include="state.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="abstract_factory.h" />
+    <ClInclude Include="adapter.h" />
+    <ClInclude Include="bridge.h" />
     <ClInclude Include="builder.h" />
+    <ClInclude Include="chain_of_responsibility.h" />
+    <ClInclude Include="command.h" />
+    <ClInclude Include="composite.h" />
     <ClInclude Include="decorate.h" />
     <ClInclude Include="facade.h" />
     <ClInclude Include="factory_method.h" />
+    <ClInclude Include="mediator.h" />
+    <ClInclude Include="memento.h" />
     <ClInclude Include="observer.h" />
     <ClInclude Include="prototype.h" />
     <ClInclude Include="proxy.h" />
     <ClInclude Include="SimpleFactory.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="state.h" />
     <ClInclude Include="strategy.h" />
     <ClInclude Include="template_method.h" />
+    <ClInclude Include="visitor.h" />
+    <ClInclude Include="WorkContext.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
