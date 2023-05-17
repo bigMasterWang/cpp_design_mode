@@ -6,7 +6,7 @@ using namespace std;
 class LeiFeng
 {
 public:
-	void sweep()
+	virtual void sweep()
 	{
 		cout << "leifeng sweep" << endl;
 	}
@@ -16,7 +16,7 @@ public:
 class Student : public LeiFeng
 {
 public:
-	void sweep()
+	void sweep() override
 	{
 		cout << "student sweep" << endl;
 	}
@@ -26,7 +26,7 @@ public:
 class Volunteer : public LeiFeng
 {
 public:
-	void sweep()
+	void sweep() override
 	{
 		cout << "volunteer sweep" << endl;
 	}
@@ -36,7 +36,7 @@ public:
 class LeiFengFactory
 {
 public:
-	LeiFeng* getLeiFeng()
+	virtual LeiFeng* getLeiFeng()
 	{
 		return nullptr;
 	}
@@ -46,7 +46,7 @@ public:
 class StudentFactory : LeiFengFactory
 {
 public:
-	Student* getLeiFeng()
+	LeiFeng* getLeiFeng() override
 	{
 		return new Student();
 	}
@@ -55,7 +55,7 @@ public:
 
 class VolunteerFactory : LeiFengFactory
 {
-	Volunteer* getLeiFeng()
+	LeiFeng* getLeiFeng() override
 	{
 		return new Volunteer();
 	}
